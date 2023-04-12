@@ -66,7 +66,7 @@ def detect(opt,save_img=False):
         print('load pose model by weights!')
     else:
         model = cacheModel
-        print('load pose model by cacheModelGuesture!')
+        print('load pose model by cacheModel!')
 
 
     stride = int(model.stride.max())  # model stride
